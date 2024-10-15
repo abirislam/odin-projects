@@ -1,0 +1,14 @@
+.parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+    border: 5px solid red;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+    border: 2px solid blue;
+  }

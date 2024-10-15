@@ -139,6 +139,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .quote {
@@ -149,8 +150,14 @@ li {
 }
 
 .quote-author {
-    align-self: end;
-    margin-right: 350px;
+    align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* call to action section */

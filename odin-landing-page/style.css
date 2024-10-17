@@ -161,3 +161,33 @@ li {
 }
 
 /* call to action section */
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    margin-bottom: 100px;
+    min-height: 150px;
+    min-width: 800px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 12px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cta-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-button button {
+    border-radius: 12px;
+    padding: 10px 40px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
